@@ -1,4 +1,4 @@
-# 速く走れる完全自作3Dプリントランニングシューズ「K-Dash」
+# K-Dash: 速く走れる完全自作3Dプリントランニングシューズ
 
 <p align="center">
   <img src="images/3d-cad/asm-honeycomb-isometric.png" alt="完全自作3Dプリントランニングシューズ「K-Dash」の斜め図" width="760">
