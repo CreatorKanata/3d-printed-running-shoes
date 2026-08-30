@@ -1,0 +1,13 @@
+# sole-ai: packaging and test configuration for the sole-design prototype.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sole-ai"
+version = "0.1.0"
+description = "Reproducible design-candidate generator for custom 3D-printed running-shoe soles."
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["sole_ai"]

@@ -1,2 +1,5 @@
 # Generated PDF deliverables are recreated from the A3 SVG layout sources.
 /output/
+
+# Generated sole candidates and meshes are recreated from sole-ai source files.
+/sole-ai/outputs/

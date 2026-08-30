@@ -1,0 +1,42 @@
+{
+  "project_name": "kanata-racing-sole-v1",
+  "runner": {
+    "body_mass_kg": null,
+    "target_distance_km": null,
+    "target_pace_min_per_km": null,
+    "strike_pattern": "unknown",
+    "required_before_physics_scoring": [
+      "body_mass_kg",
+      "target_distance_km",
+      "target_pace_min_per_km",
+      "strike_pattern"
+    ]
+  },
+  "manufacturing": {
+    "units": "mm",
+    "printer": "AD5X",
+    "min_wall_mm": 1.2,
+    "min_lattice_cell_mm": 5.0,
+    "max_density_gradient_per_mm": 0.03,
+    "tpu_shore_a": 90,
+    "plate_material": "PC"
+  },
+  "outer_envelope": {
+    "mode": "locked_from_input_mesh",
+    "source_of_truth": "sole-envelope.step",
+    "visual_intent": "thick smooth rocker midsole",
+    "rocker_geometry": "inherited_from_input_mesh",
+    "plate_profile": "rocker_following",
+    "note": "V1 optimizes the internal structure only; it must preserve the supplied thick-sole silhouette."
+  },
+  "design_bounds": {
+    "plate_offset_from_split_mm": [-0.4, 0.4],
+    "plate_thickness_mm": [1.2, 2.4],
+    "toe_spring_start_percent": [65.0, 78.0],
+    "toe_spring_rise_mm": [3.0, 7.0],
+    "upper_density": [0.24, 0.58],
+    "bottom_density": [0.30, 0.72],
+    "split_height_percent": [37.0, 43.0],
+    "plate_corner_radius_mm": [8.0, 14.0]
+  }
+}
