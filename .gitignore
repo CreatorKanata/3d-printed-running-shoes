@@ -3,3 +3,29 @@
 
 # Generated sole candidates and meshes are recreated from sole-ai source files.
 /sole-ai/outputs/
+
+# Local temporary working files.
+/tmp/
+
+# Keep only the approved source models; generated/obsolete model files stay local.
+/3d-models/*
+!/3d-models/plate-mold/
+!/3d-models/plate-mold/**
+!/3d-models/profiles/
+!/3d-models/profiles/**
+!/3d-models/shoe-plate/
+!/3d-models/shoe-plate/**
+!/3d-models/sole/
+/3d-models/sole/*
+!/3d-models/sole/prototype1/
+!/3d-models/sole/prototype1/**
+!/3d-models/sole/prototype2/
+/3d-models/sole/prototype2/*
+!/3d-models/sole/prototype2/*.stl
+!/3d-models/sole/sole-lattice-left-graded-multi-row-honeycomb-v3-self-supporting.3mf
+!/3d-models/sole/sole-lattice-right-graded-multi-row-honeycomb-v3-self-supporting.3mf
+!/3d-models/upper/
+!/3d-models/upper/**
+
+# Finder metadata is not project content.
+.DS_Store
