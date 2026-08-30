@@ -1,0 +1,22 @@
+<!-- docs/report/a3-sketchbook-layout/page-01-cover.svg | A3縦の表紙台紙 | 研究のきっかけとL判写真2枚を見せるため -->
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="420mm" viewBox="0 0 297 420" role="img" aria-labelledby="title desc">
+  <rect width="297" height="420" fill="#ffffff"/><title id="title">1ページ目 研究のきっかけ</title><desc id="desc">A3縦。ランニングクラブとAdidasストアのL判写真を貼り、研究の題名と動機を書く台紙。</desc>
+  <style>text{font-family:'Hiragino Sans','Noto Sans JP',sans-serif;fill:#16233a}.title{font-size:10px;font-weight:700}.sub{font-size:5.4px;font-weight:700}.body{font-size:4px}.small{font-size:3.1px}.photo{fill:#fff5c7;stroke:#d49a00;stroke-width:.7}.hand{fill:#eef8ff;stroke:#177db7;stroke-width:.7;stroke-dasharray:3 2}.line{stroke:#177db7;stroke-width:.45}.edge{fill:none;stroke:#16233a;stroke-width:.7}</style>
+  <rect class="edge" x="8" y="8" width="281" height="404" rx="2"/>
+  <text class="small" x="12" y="18">夏休みの自由研究　｜　ページ 1 / 10</text>
+  <text class="title" x="148.5" y="35" text-anchor="middle">じぶんの足にぴったりの</text>
+  <text class="title" x="148.5" y="48" text-anchor="middle">ランニングシューズを 3Dプリンターで作る</text>
+  <text class="body" x="148.5" y="59" text-anchor="middle">3年　　組　名前：かなた　　　　　　　　　　</text>
+  <g data-source="images/report/running-club.JPG" data-print-size="127x89mm" data-orientation="landscape">
+    <rect class="photo" x="15" y="75" width="127" height="89"/><text class="sub" x="78.5" y="112" text-anchor="middle">L判写真を貼る</text><text class="small" x="78.5" y="119" text-anchor="middle">running-club.JPG（横向き）</text>
+  </g>
+  <g data-source="images/report/adidas-store.png" data-print-size="127x89mm" data-orientation="landscape">
+    <rect class="photo" x="155" y="75" width="127" height="89"/><text class="sub" x="218.5" y="112" text-anchor="middle">L判写真を貼る</text><text class="small" x="218.5" y="119" text-anchor="middle">adidas-store.png（横向き）</text>
+  </g>
+  <text class="sub" x="15" y="180">どうして、この研究をしようと思ったの？</text>
+  <rect class="hand" x="15" y="187" width="267" height="52"/><text class="body" x="21" y="200">ランニングクラブで、もっと速く走れるようになりたいと思った。</text><text class="body" x="21" y="211">コーチにくつの工夫を聞いて、「自分でも作れるかな？」と考えた。</text><line class="line" x1="21" y1="223" x2="275" y2="223"/><line class="line" x1="21" y1="233" x2="275" y2="233"/>
+  <text class="sub" x="15" y="258">この研究でしらべたいこと（よそう）</text>
+  <rect class="hand" x="15" y="265" width="267" height="54"/><text class="body" x="21" y="278">自分の足に合わせて作ったくつは、はきやすくなるのかな？</text><text class="body" x="21" y="289">速く走るくつには、どんな工夫があるのかな？</text><line class="line" x1="21" y1="303" x2="275" y2="303"/>
+  <text class="sub" x="15" y="341">ページの見かた</text><rect class="photo" x="15" y="348" width="28" height="20"/><text class="small" x="48" y="360">黄色：L判写真を貼る場所</text><rect class="hand" x="148" y="348" width="28" height="20"/><text class="small" x="181" y="360">青：自分で書く・絵を描く場所</text>
+  <text class="small" x="148.5" y="395" text-anchor="middle">★ 写真の下に、かなたくんの言葉で一言ずつ書こう。</text>
+</svg>
