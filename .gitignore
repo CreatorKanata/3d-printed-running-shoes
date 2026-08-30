@@ -21,11 +21,17 @@
 !/3d-models/sole/prototype1/**
 !/3d-models/sole/prototype2/
 /3d-models/sole/prototype2/*
-!/3d-models/sole/prototype2/*.stl
 !/3d-models/sole/sole-lattice-left-graded-multi-row-honeycomb-v3-self-supporting.3mf
 !/3d-models/sole/sole-lattice-right-graded-multi-row-honeycomb-v3-self-supporting.3mf
 !/3d-models/upper/
 !/3d-models/upper/**
+
+# The high-resolution fitting meshes stay local only.
+/3d-models/sole/prototype2/shoe-upper-left.stl
+/3d-models/sole/prototype2/shoe-upper-right.stl
+
+# High-resolution PDF source for the report front page stays local only.
+/images/report/report-front-page.pdf
 
 # Finder metadata is not project content.
 .DS_Store
