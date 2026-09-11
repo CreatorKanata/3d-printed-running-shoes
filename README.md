@@ -1,101 +1,103 @@
-# K-Dash: 速く走れる完全自作3Dプリントランニングシューズ
+<!-- README.md | Project overview and navigation | Introduce the K-Dash research project. -->
+
+# K-Dash: Fully DIY 3D-Printed Running Shoes Designed for Speed
 
 <p align="center">
-  <img src="images/3d-cad/asm-honeycomb-isometric.png" alt="完全自作3Dプリントランニングシューズ「K-Dash」の斜め図" width="760">
+  <img src="images/3d-cad/asm-honeycomb-isometric.png" alt="Isometric view of the fully DIY K-Dash 3D-printed running shoes" width="760">
 </p>
 
-小学3年生のかなたくんが発案した、夏休みの自由研究プロジェクトです。自分の足を3Dスキャンし、ランニングクラブのコーチに教えてもらった靴の工夫を参考に、AI・3D CAD・3Dプリンタを使って、速く走れる完全自作ランニングシューズ「K-Dash」作りに挑戦します。父親は、スキャン、CAD、材料選び、プリントなどの技術面を提案・支援しています。
+This summer research project was conceived by Kanata, a third-grade elementary school student. By scanning his own feet and learning about shoe design from his running club coach, he is taking on the challenge of making K-Dash: fully DIY running shoes designed for speed, using AI, 3D CAD, and a 3D printer. His father offers technical suggestions and support with scanning, CAD, material selection, and printing.
 
-## 研究の目的
+## Research Goals
 
-自分の足にフィットするランニングシューズを作りながら、速く走るための靴にはどのような工夫があるのかを調べます。
+Explore the design features of shoes intended for faster running while making running shoes that fit his own feet.
 
-- コーチから聞いた、つま先が上がった形、厚いソール、プレートの工夫を調べる。
-- 実際の市販シューズを観察し、自分の設計の参考にする。
-- 足を3Dスキャンし、ぴったり合うアッパーを設計する。
-- 小さな試作と材料の比較をくり返し、3Dプリントの条件を見つける。
-- 家で加工できるポリカーボネートのプレートをソールに組み込む。
+- Investigate the raised toe, thick sole, and plate features described by the coach.
+- Examine commercially available shoes for design ideas.
+- Scan his feet in 3D and design closely fitting uppers.
+- Find suitable 3D-printing settings through small prototypes and material comparisons.
+- Incorporate a polycarbonate plate that can be made at home into the sole.
 
-## 最終的に使ったフィラメント
+## Filament Used in the Final Version
 
-- フィラメント：[Siraya Tech Flex TPU Air アクティブ発泡3Dプリンターフィラメント](https://www.amazon.co.jp/dp/B0DZCD4Z9M)
-- 色：White と Black
-- ノズル径：0.6 mm
+- Filament: [Siraya Tech Flex TPU Air Active Foaming 3D Printer Filament](https://www.amazon.co.jp/dp/B0DZCD4Z9M)
+- Colors: White and Black
+- Nozzle diameter: 0.6 mm
 
-## 調べる → 設計する → 作る
+## Research → Design → Build
 
-### 1. コーチに聞き、市販シューズで確かめる
+### 1. Learn from the Coach and Examine Commercial Shoes
 
 <p align="center">
-  <img src="images/report/running-club.JPG" alt="ランニングクラブのコーチ" width="47%">
-  <img src="images/report/adidas-running-shoes.jpg" alt="Adidasストアで観察したランニングシューズ" width="47%">
+  <img src="images/report/running-club.JPG" alt="Running club coach" width="47%">
+  <img src="images/report/adidas-running-shoes.jpg" alt="Running shoes examined at an Adidas store" width="47%">
 </p>
 
-コーチから、速く走るための靴には「つま先が上がった形」「厚いソール」「プレート」という工夫があると教えてもらいました。Adidasストア東京で実物を観察し、これらの工夫を自分のシューズの参考にしました。
+The coach explained that shoes designed for faster running feature raised toes, thick soles, and plates. We examined actual shoes at an Adidas store in Tokyo and used these features as references for our own shoes.
 
 <p align="center">
-  <img src="images/report/adidas-explain.png" alt="Adidasストア内のランニングシューズ構造の説明" width="68%">
+  <img src="images/report/adidas-explain.png" alt="Explanation of running shoe construction at the Adidas store" width="68%">
 </p>
 
-### 2. 自分の足を3Dデータにする
+### 2. Turn His Feet into 3D Data
 
 <p align="center">
-  <img src="images/report/heges-scan.png" alt="Hegesで足を3Dスキャンしている画面" width="31%">
-  <img src="images/report/foot-3d-scan-raw.png" alt="ノイズを含む足の3Dスキャンデータ" width="31%">
-  <img src="images/report/foot-3d-scan-clean.png" alt="ノイズを取り除いた足の3Dスキャンデータ" width="31%">
+  <img src="images/report/heges-scan.png" alt="Scanning a foot in 3D with Heges" width="31%">
+  <img src="images/report/foot-3d-scan-raw.png" alt="Raw foot scan containing noise" width="31%">
+  <img src="images/report/foot-3d-scan-clean.png" alt="Foot scan after removing noise" width="31%">
 </p>
 
-HegesとiPhoneのTrueDepthセンサーを使い、両足を約0.5 mmの精度でスキャンしました。床などの不要な部分を取り除き、アッパーを設計できる足の3Dデータに整えました。
+We scanned both feet with Heges and an iPhone's TrueDepth sensor at approximately 0.5 mm accuracy. After removing unwanted areas such as the floor, we prepared the foot models for designing the uppers.
 
-### 3. AIと3D CADでデザインする
+### 3. Design with AI and 3D CAD
 
 <p align="center">
-  <img src="images/report/cad-design-with-ai.png" alt="AIとAutodesk Fusionで設計する画面" width="47%">
-  <img src="images/3d-cad/asm-honeycomb-side.png" alt="側面から見たハニカムソールのシューズ設計" width="47%">
+  <img src="images/report/cad-design-with-ai.png" alt="Designing with AI and Autodesk Fusion" width="47%">
+  <img src="images/3d-cad/asm-honeycomb-side.png" alt="Side view of the shoe design with a honeycomb sole" width="47%">
 </p>
 
-Autodesk Fusionで靴を設計しました。AIには作りたい形を伝え、MCP経由でFusionの操作を手伝ってもらいながら、足に合うアッパー、つま先が上がった形、軽くするためのハニカム構造を検討しました。
+We designed the shoes in Autodesk Fusion. By describing the desired shapes to AI and using its help to operate Fusion through MCP, we explored fitted uppers, a raised toe shape, and a honeycomb structure to reduce weight.
 
-### 4. 3Dプリンタで試作をくり返す
+### 4. Iterate with 3D-Printed Prototypes
 
 <p align="center">
-  <img src="images/report/3d-printer-ad5x.jpg" alt="使用したFlashForge AD5X 3Dプリンタ" width="31%">
-  <img src="images/report/first-shoe-upper-prototype.jpg" alt="最初のアッパーを履いてフィット感を確認" width="31%">
-  <img src="images/report/many-failures.jpg" alt="TPUのプリントで生まれた試作品と失敗例" width="31%">
+  <img src="images/report/3d-printer-ad5x.jpg" alt="FlashForge AD5X 3D printer used for the project" width="31%">
+  <img src="images/report/first-shoe-upper-prototype.jpg" alt="Trying on the first upper prototype to check the fit" width="31%">
+  <img src="images/report/many-failures.jpg" alt="Prototypes and failed TPU prints" width="31%">
 </p>
 
-FlashForge AD5Xで、まずアッパーだけをプリントしてフィット感を確認しました。最終的には、WhiteとBlackのSiraya Tech Flex TPU Airを0.6 mmノズルで使いました。柔らかいTPUは難しく、温度、ノズル径、フィラメントの送り方を調整しながら、何度も試作をくり返しました。
+We first printed only the uppers on a FlashForge AD5X to check the fit. For the final version, we used White and Black Siraya Tech Flex TPU Air with a 0.6 mm nozzle. Soft TPU was challenging to print, so we made many prototypes while adjusting the temperature, nozzle diameter, and filament feeding method.
 
-### 5. ポリカーボネートのプレートをソールに入れる
+### 5. Insert a Polycarbonate Plate into the Sole
 
 <p align="center">
-  <img src="images/report/pc-plate2.jpg" alt="曲げても折れずに反発するポリカーボネートプレート" width="47%">
-  <img src="images/report/pc-plate-placement3.png" alt="ソール内にポリカーボネートプレートを組み込んだプリント" width="47%">
+  <img src="images/report/pc-plate2.jpg" alt="Polycarbonate plate that springs back after bending without breaking" width="47%">
+  <img src="images/report/pc-plate-placement3.png" alt="Print with a polycarbonate plate embedded in the sole" width="47%">
 </p>
 
-カーボンプレートの加工は家では難しいため、3Dプリンタで作れるポリカーボネートのプレートを使いました。ソールのプリントを途中で止めてプレートを置き、再開することで、TPUの中にプレートを組み込みました。
+Because carbon plates are difficult to fabricate at home, we used polycarbonate plates that could be made with a 3D printer. We paused the sole print, placed the plate inside, and resumed printing to embed it in the TPU.
 
-## フォルダ構成
+## Folder Structure
 
-| 場所 | 内容 |
+| Location | Contents |
 | --- | --- |
-| [`docs/report/`](docs/report/) | 自由研究のまとめ、A3スケッチブック用レイアウト、保護者向けコメント例。 |
-| [`docs/sole-ai/`](docs/sole-ai/) | AIを使ったソール設計と、格子構造・3Dプリントに関する技術メモ。 |
-| [`images/report/`](images/report/) | 自由研究に使う写真・画面キャプチャと、その説明集。 |
-| [`images/3d-cad/`](images/3d-cad/) | AIと3D CADで作成したシューズの完成イメージ。 |
-| [`3d-models/`](3d-models/) | 3Dプリント用のアッパー、ソール、プレート、スライサープロファイル。 |
-| [`sole-ai/`](sole-ai/) | 左右のソール設計候補を作るPythonツールとテスト。 |
+| [`docs/report/`](docs/report/) | Research report, A3 sketchbook layouts, and sample comments for parents. |
+| [`docs/sole-ai/`](docs/sole-ai/) | Technical notes on AI-assisted sole design, lattice structures, and 3D printing. |
+| [`images/report/`](images/report/) | Research photos, screenshots, and their descriptions. |
+| [`images/3d-cad/`](images/3d-cad/) | Shoe design renderings created with AI and 3D CAD. |
+| [`3d-models/`](3d-models/) | Uppers, soles, plates, and slicer profiles for 3D printing. |
+| [`sole-ai/`](sole-ai/) | Python tools and tests for generating left and right sole design candidates. |
 
-## 自由研究を読む
+## Read the Research Report
 
-自由研究で使う画像の説明は、[images/report/README.md](images/report/README.md) にまとめています。A3縦長スケッチブック10ページ分のレイアウトは、[docs/report/a3-sketchbook-layout/README.md](docs/report/a3-sketchbook-layout/README.md) を参照してください。
+Descriptions of the research images are collected in [images/report/README.md](images/report/README.md). For the ten-page A3 portrait sketchbook layout, see [docs/report/a3-sketchbook-layout/README.md](docs/report/a3-sketchbook-layout/README.md).
 
-## ソール設計ツール
+## Sole Design Tools
 
-`sole-ai` は、左右それぞれのソール形状、プレートの配置、内部の格子構造を検討するためのツールです。使い方や設計上の前提は、[sole-ai/README.md](sole-ai/README.md) に記載しています。
+`sole-ai` is a tool for exploring left and right sole shapes, plate placement, and internal lattice structures. See [sole-ai/README.md](sole-ai/README.md) for usage and design assumptions.
 
-生成途中の候補データは `sole-ai/outputs/`、PDFなどの出力物は `output/` に保存し、Gitでは管理しません。
+Intermediate candidate data is stored in `sole-ai/outputs/`, and generated files such as PDFs are stored in `output/`. These are not tracked in Git.
 
-## 安全について
+## Safety
 
-このリポジトリの3Dモデルは研究・試作用です。実際に走る前には、部品の強度、接着状態、フィット感を十分に確認します。長距離走や競技での使用は、安全性を確かめたあとに判断します。
+The 3D models in this repository are intended for research and prototyping. Before running in the shoes, thoroughly check component strength, bonding, and fit. Decide whether to use them for long-distance running or competition only after verifying their safety.

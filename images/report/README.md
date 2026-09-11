@@ -1,257 +1,259 @@
-# 自由研究用画像の解説
+<!-- images/report/README.md | Research image captions | Explain the process and findings alongside the photos. -->
 
-このフォルダの写真・画面キャプチャを、自由研究「自分の足にフィットする3Dプリント・ランニングシューズを作る」に貼るときの説明集です。本文は、**きっかけ → 市販シューズの調査 → 足のスキャンと設計 → CADで完成形を確認 → プリントと試作 → プレート入りソール → 完成後の重さと走行テスト**の順にすると、作り方と工夫が伝わりやすくなります。
+# Image Descriptions for the Research Project
 
-各項目の「本文に使える説明」は、画像の横または下にそのまま貼れる長さを目安にしています。市販シューズの仕様はモデルによって異なるため、写真から分かることとして説明します。
+These descriptions accompany the photos and screenshots in this folder for the research project, “Making 3D-Printed Running Shoes That Fit My Feet.” To explain the process and design choices clearly, arrange the report in this order: **motivation → commercial shoe research → foot scanning and design → reviewing the finished CAD design → printing and prototyping → soles with embedded plates → finished shoe weight and running tests**.
 
-## 1. きっかけと市販シューズの調査
+Each “Suggested caption” is intended to fit beside or below its image. Commercial shoe specifications vary by model, so describe what can be seen in the photos.
 
-### `running-club.JPG` — コーチに聞いた、速く走る靴の工夫
+## 1. Motivation and Commercial Shoe Research
 
-**本文に使える説明：** ランニングクラブのコーチに、ランニングシューズには速く走るための工夫があることを教えてもらった。カーボンプレート、つま先が上がった形、厚いソールを、自分のシューズ作りの参考にした。
+### `running-club.JPG` — Learning About Fast Shoe Designs from the Coach
 
-**伝えたいこと：** 自分で作る前に、走りやすい靴のしくみを専門家に聞いて調べた。
+**Suggested caption:** My running club coach taught me that running shoes have features designed to help people run faster. I used carbon plates, raised toes, and thick soles as ideas for my own shoes.
 
-### `adidas-store.png` — Adidasストアで実物を調査
+**Key point:** Before making my shoes, I asked an expert how shoes can make running easier.
 
-**本文に使える説明：** コーチに教えてもらったAdidasのランニングシューズを調べるため、Adidasストア東京へ行った。実物を見ることで、写真だけでは分からない形や材料の工夫を観察した。
+### `adidas-store.png` — Examining Shoes at an Adidas Store
 
-**伝えたいこと：** 実際の市販シューズを見て、設計のヒントを集めた。
+**Suggested caption:** I visited an Adidas store in Tokyo to learn about the running shoes my coach recommended. Seeing them in person helped me observe shapes and materials that photos alone could not show.
 
-### `adidas-explain.png` — 店内のシューズ構造の説明
+**Key point:** I gathered design ideas by examining actual commercial shoes.
 
-**本文に使える説明：** 店内にはランニングシューズの構造を説明する展示があった。シューズは見た目だけでなく、ソールやプレートなど、走りやすさのためのいろいろな部品でできていることが分かった。
+### `adidas-explain.png` — An In-Store Explanation of Shoe Construction
 
-**伝えたいこと：** お店で見た展示から、シューズの中のしくみを学んだ。
+**Suggested caption:** The store had a display explaining how running shoes are built. I learned that shoes are more than their appearance: soles, plates, and other parts help make running easier.
 
-### `adidas-running-shoes.jpg` — 最新ランニングシューズの工夫
+**Key point:** The store display helped me learn how shoes work inside.
 
-**本文に使える説明：** ストアにあったランニングシューズには、つま先が上がった形、厚いソール、カーボン入りの構造など、コーチが教えてくれた工夫が使われていた。
+### `adidas-running-shoes.jpg` — Features of Modern Running Shoes
 
-**伝えたいこと：** コーチに聞いた工夫を、実物の靴でも確かめられた。
+**Suggested caption:** The running shoes in the store had features my coach described, including raised toes, thick soles, and structures containing carbon components.
 
-### `competitive-analysis.jpg` — 各社シューズの特徴を比較
+**Key point:** I could see the features my coach described in actual shoes.
 
-**本文に使える説明：** AIにも手伝ってもらい、ランニングシューズを作っている会社ごとの特徴を調べた。会社によって、プレートやクッションの使い方が違うことが分かった。
+### `competitive-analysis.jpg` — Comparing Shoe Brands
 
-**伝えたいこと：** 一つの会社だけでなく、いろいろな考え方を比較して設計の参考にした。
+**Suggested caption:** With help from AI, I researched the features of different running shoe brands. I learned that companies use plates and cushioning in different ways.
 
-### `competitor-adidas.png` — 競合調査：adidas
+**Key point:** I compared ideas from several companies to inform my design.
 
-**本文に使える説明：** adidasのシューズでは、カーボンの部品が入った構造を調べた。足を前へ進めるために、反発する部品が使われていることが分かった。
+### `competitor-adidas.png` — Competitor Research: adidas
 
-**伝えたいこと：** カーボンを使った「反発」の工夫を参考にした。
+**Suggested caption:** I studied adidas shoe structures containing carbon components. I learned that springy parts are used to help move the foot forward.
 
-### `competitor-new-balance.png` — 競合調査：New Balance
+**Key point:** I used carbon-based spring-back features as a design reference.
 
-**本文に使える説明：** New Balanceのシューズでは、波打った形のカーボンプレートが使われている例を調べた。プレートの形にも、会社ごとの工夫があることが分かった。
+### `competitor-new-balance.png` — Competitor Research: New Balance
 
-**伝えたいこと：** 同じカーボンプレートでも、形によって工夫が違う。
+**Suggested caption:** I studied an example of New Balance shoes with a wavy carbon plate. I learned that companies also have different ideas about plate shapes.
 
-### `competitor-nike.png` — 競合調査：Nike
+**Key point:** Even carbon plates can use different shapes to achieve their design goals.
 
-**本文に使える説明：** Nikeのシューズでは、カーボンだけでなく、前のほうにエアクッションも入った構造を調べた。プレートとクッションを組み合わせる方法があることを知った。
+### `competitor-nike.png` — Competitor Research: Nike
 
-**伝えたいこと：** 反発だけでなく、クッションも走りやすさに大切だと考えた。
+**Suggested caption:** I studied Nike shoes that combined carbon components with air cushioning near the front. I learned that plates and cushioning can be used together.
 
-## 2. 自分の足を3Dデータにする
+**Key point:** I considered cushioning, as well as spring-back, important for comfortable running.
 
-### `heges-scan.png` — Hegesで足を3Dスキャン
+## 2. Turning My Feet into 3D Data
 
-**本文に使える説明：** ぴったり合うアッパーを作るため、Hegesというアプリで両足を3Dスキャンした。iPhoneのTrueDepthセンサーを使い、約0.5 mmの精度で足の形をデータにした。
+### `heges-scan.png` — Scanning My Feet with Heges
 
-**伝えたいこと：** 自分の足に合わせた靴にするため、最初に足の形を正確に測った。
+**Suggested caption:** To make uppers that fit well, I scanned both feet with an app called Heges. Using the iPhone's TrueDepth sensor, I captured their shapes at approximately 0.5 mm accuracy.
 
-### `foot-3d-scan-raw.png` — スキャン直後の足データ
+**Key point:** I first measured my foot shapes accurately to make shoes fitted to my feet.
 
-**本文に使える説明：** スキャンしたデータには、足だけでなく、床や周りのものも一緒に入っていた。このままでは靴の設計に使いにくいため、いらない部分を消す必要があった。
+### `foot-3d-scan-raw.png` — The Raw Foot Scan
 
-**伝えたいこと：** 3Dスキャンは、撮ったままでは使えず、データをきれいにする作業が必要だった。
+**Suggested caption:** The scan captured the floor and nearby objects as well as my feet. I needed to remove the unwanted parts before using the data to design the shoes.
 
-### `foot-3d-scan-clean.png` — ノイズを取り除いた足データ
+**Key point:** The raw 3D scan needed cleaning before it could be used.
 
-**本文に使える説明：** 床や周りのノイズをカットすると、足だけの3Dデータになった。このデータをもとにして、足の形に合うアッパーを設計した。
+### `foot-3d-scan-clean.png` — The Foot Scan After Removing Noise
 
-**伝えたいこと：** データを整えることで、設計に使える足のモデルができた。
+**Suggested caption:** After cutting away the floor and surrounding noise, only the 3D foot data remained. I used it to design uppers matching my feet.
 
-## 3. AIと3D CADで設計する
+**Key point:** Cleaning the data produced foot models suitable for design.
 
-### `cad-design-with-ai.png` — AIとAutodesk Fusionで設計
+## 3. Designing with AI and 3D CAD
 
-**本文に使える説明：** 今回はAutodesk Fusionという3D CADを使って設計した。CADの操作は、ClaudeやGPT-5.6 SolなどのAIに、作りたい形を伝え、MCP経由でFusionを操作してもらいながら進めた。
+### `cad-design-with-ai.png` — Designing with AI and Autodesk Fusion
 
-**伝えたいこと：** AIを道具として使い、自分の考えを3Dの形にした。
+**Suggested caption:** I used Autodesk Fusion, a 3D CAD application, for the design. I described the shapes I wanted to AI tools such as Claude and GPT-5.6 Sol, which helped operate Fusion through MCP.
 
-### `../3d-cad/asm-honeycomb-front.png` — 正面から見た完成デザイン
+**Key point:** I used AI as a tool to turn my ideas into 3D shapes.
 
-**本文に使える説明：** AIとCADでデザインしたシューズを正面から見た図である。メッシュ状のアッパーと、足を支えるソールを組み合わせた形を確認した。
+### `../3d-cad/asm-honeycomb-front.png` — Front View of the Finished Design
 
-**伝えたいこと：** 3D CADを使うと、プリント前に靴全体のバランスをいろいろな方向から確認できる。
+**Suggested caption:** This is a front view of the shoes designed with AI and CAD. I checked the combination of mesh-like uppers and soles that support the feet.
 
-### `../3d-cad/asm-honeycomb-side.png` — 側面から見た完成デザイン
+**Key point:** 3D CAD lets me check the overall balance of the shoes from different directions before printing.
 
-**本文に使える説明：** 側面から見ると、厚いハニカム構造のソールと、つま先が上がった形が分かる。ソールを中がつまった形にせず、ハニカム構造にすることで軽くしようと考えた。
+### `../3d-cad/asm-honeycomb-side.png` — Side View of the Finished Design
 
-**伝えたいこと：** 走りやすさのための形と、軽くするための構造をCADで考えた。
+**Suggested caption:** The side view shows the thick honeycomb soles and raised toes. I chose a honeycomb structure instead of solid soles to try to reduce weight.
 
-### `../3d-cad/asm-honeycomb-isometric.png` — 斜めから見た完成デザイン
+**Key point:** I used CAD to explore shapes for easier running and structures for lower weight.
 
-**本文に使える説明：** 斜めから見ると、メッシュ状のアッパー、足を支える白い補強部分、ハニカム構造のソールがどのように組み合わさっているかが分かる。AIに作りたいことを伝え、CAD上で全体のデザインを確認した。
+### `../3d-cad/asm-honeycomb-isometric.png` — Isometric View of the Finished Design
 
-**伝えたいこと：** 3D CADでは、部品どうしのつながりまで見ながらデザインを調整できる。
+**Suggested caption:** This angled view shows how the mesh-like uppers, white foot-support reinforcements, and honeycomb soles fit together. I told AI what I wanted to make and checked the overall design in CAD.
 
-## 4. 3Dプリンタで試作と調整をする
+**Key point:** 3D CAD lets me adjust the design while checking how the parts connect.
 
-### `3d-print-slicer.jpg` — 3Dプリントの準備をするスライサー
+## 4. Prototyping and Adjusting the 3D Prints
 
-**本文に使える説明：** 3D CADで作ったモデルを、3Dプリンタで印刷できるデータに変えるために、スライサーというソフトを使った。積み重ねる層や印刷する順番を確認してからプリントした。
+### `3d-print-slicer.jpg` — Preparing Prints with a Slicer
 
-**伝えたいこと：** 3Dプリンタは、設計データをそのまま印刷するのではなく、印刷用に準備する必要がある。
+**Suggested caption:** I used software called a slicer to convert the CAD models into data the 3D printer could use. I checked the layers and printing order before printing.
 
-### `3d-printer-ad5x.jpg` — 使用した3Dプリンタ
+**Key point:** A CAD model needs preparation before a 3D printer can print it.
 
-**本文に使える説明：** ランニングシューズの部品は、FlashForge AD5Xという3Dプリンタで作った。家でも使える3Dプリンタを使って、何度も試作できるようにした。
+### `3d-printer-ad5x.jpg` — The 3D Printer Used
 
-**伝えたいこと：** 3Dプリンタを使うと、自分で考えた形を実際の部品にできる。
+**Suggested caption:** I made the running shoe parts with a FlashForge AD5X 3D printer. Using a printer suitable for home use allowed me to make repeated prototypes.
 
-### `many-failures.jpg` — たくさんの失敗から印刷条件を調整
+**Key point:** A 3D printer can turn my design ideas into physical parts.
 
-**本文に使える説明：** たくさんの試作品を作ったが、特に柔らかいTPUのプリントは難しかった。温度を調整し、ノズルの太さを0.4 mmから0.6 mmに変え、フィラメント切換器を使わない構成にすると、やっと安定してプリントできるようになった。
+### `many-failures.jpg` — Adjusting Print Settings Through Many Failures
 
-**伝えたいこと：** うまくいかなかった結果も記録し、原因を考えて条件を一つずつ変えることが大切だと分かった。
+**Suggested caption:** I made many prototypes, but soft TPU was especially difficult to print. Printing finally became stable after adjusting the temperature, changing the nozzle from 0.4 mm to 0.6 mm, and using a setup without the filament switcher.
 
-### `first-shoe-upper-printing.jpg` — 最初のアッパーをプリント
+**Key point:** I learned to record failures, consider their causes, and change conditions one at a time.
 
-**本文に使える説明：** まずは足へのフィット感を確かめるために、靴の上側であるアッパーだけをプリントした。いきなり全部を作らず、小さく試作して確かめた。
+### `first-shoe-upper-printing.jpg` — Printing the First Upper
 
-**伝えたいこと：** 失敗を減らすために、最初は一部分だけを作ってテストした。
+**Suggested caption:** I first printed only the upper, the top part of the shoe, to check the fit. I tested a smaller part before making the whole shoe.
 
-### `first-shoe-upper-prototype.jpg` — 最初のアッパーを履いて確認
+**Key point:** I started by making and testing one part to reduce failures.
 
-**本文に使える説明：** 最初のアッパーを実際に履いてみると、足にしっかりフィットした。3Dスキャンした足のデータを使ったことで、自分の足に合う形を作れた。
+### `first-shoe-upper-prototype.jpg` — Trying On the First Upper
 
-**伝えたいこと：** スキャンから設計したアッパーは、実際に履いてもフィット感が良かった。
+**Suggested caption:** When I tried on the first upper, it fitted my foot well. Using the scanned foot data helped me make a shape suited to my foot.
 
-### `shoe-upper-printing.png` — 本格デザインのアッパーをプリント
+**Key point:** The upper designed from the scan also fitted well when worn.
 
-**本文に使える説明：** 本格的なデザインのアッパーもプリントした。TPUやPEBAなどを試し、失敗と調整をくり返した結果、最終的にはWhiteとBlackのSiraya Tech Flex TPU Air（アクティブ発泡フィラメント）を、0.6 mmノズルで使うのが最も合っていると分かった。今回はノズル温度260℃で、柔らかさ70Aにしてプリントした。
+### `shoe-upper-printing.png` — Printing the Full Upper Design
 
-**伝えたいこと：** 材料によって硬さや履き心地が違うため、比べて一番よい材料を選んだ。
+**Suggested caption:** I also printed the full upper design. After trying TPU, PEBA, and other materials and repeatedly adjusting failed prints, I found that White and Black Siraya Tech Flex TPU Air, an active foaming filament, worked best with a 0.6 mm nozzle. For this print, I used a nozzle temperature of 260°C for a hardness of 70A.
 
-### `insert-insole.png` — インソールを入れる
+**Key point:** Materials differ in hardness and comfort, so I compared them to choose the best fit for the project.
 
-**本文に使える説明：** 靴の中にはインソールを入れて、履き心地を良くした。3Dプリントしたアッパーとインソールを組み合わせて、足が当たりにくいように調整した。
+### `insert-insole.png` — Adding an Insole
 
-**伝えたいこと：** プリントした部品だけでなく、インソールも使って履き心地を工夫した。
+**Suggested caption:** I added insoles to make the shoes more comfortable. I combined the printed uppers with insoles and adjusted them to reduce rubbing against my feet.
 
-### `shoe-upper-finish.png` — インソールを入れた完成アッパー
+**Key point:** I improved comfort with insoles as well as printed parts.
 
-**本文に使える説明：** インソールを入れたあとも、アッパーのフィット感は良かった。自分の足に合わせて作ったアッパーと、インソールの両方がうまく使えることを確認できた。
+### `shoe-upper-finish.png` — The Finished Upper with an Insole
 
-**伝えたいこと：** 最後まで履いて確認し、フィット感を保てた。
+**Suggested caption:** The uppers still fitted well after adding the insoles. I confirmed that the custom uppers and insoles worked well together.
 
-## 5. ポリカーボネートのプレートをソールに入れる
+**Key point:** I kept checking the fit by trying on the shoes through the final stage.
 
-### `pc-plate1.jpg` — カーボンの代わりに作ったプレート
+## 5. Embedding Polycarbonate Plates in the Soles
 
-**本文に使える説明：** カーボンプレートは家で加工するのが難しかったため、代わりにポリカーボネートのプレートを3Dプリンタで作った。これならレーザーカットをしなくても、家で安く作ることができる。
+### `pc-plate1.jpg` — Making a Plate Instead of Using Carbon
 
-**伝えたいこと：** 難しい材料をそのまま使うのではなく、家で作れる材料に置きかえて工夫した。
+**Suggested caption:** Carbon plates were difficult to fabricate at home, so I 3D-printed polycarbonate plates instead. This let me make them inexpensively at home without laser cutting.
 
-### `pc-plate2.jpg` — プレートの強さと反発を確認
+**Key point:** I adapted the design by choosing a material I could work with at home.
 
-**本文に使える説明：** ポリカーボネートのプレートを曲げてみると、折れずに元へ戻ろうとする力が強かった。カーボンプレートの代わりとして使えるか、曲げながら確かめた。
+### `pc-plate2.jpg` — Testing Plate Strength and Spring-Back
 
-**伝えたいこと：** 作った部品を実際に曲げて、強さと反発をテストした。
+**Suggested caption:** When I bent the polycarbonate plate, it strongly tried to return to its original shape without breaking. I tested it by bending it to see whether it could substitute for a carbon plate.
 
-### `pc-plate-placement1.png` — プリントを止める位置を決める
+**Key point:** I physically bent the part to test its strength and spring-back.
 
-**本文に使える説明：** ソールをプリントしている途中でプレートを入れるため、プレートを置く高さまで印刷したところでプリントを一時停止した。
+### `pc-plate-placement1.png` — Choosing Where to Pause the Print
 
-**伝えたいこと：** 異なる材料を一体化するために、プリントの途中で作業を入れる方法を考えた。
+**Suggested caption:** To insert the plate during printing, I paused the sole print when it reached the height where the plate would sit.
 
-### `pc-plate-placement2.png` — プレートを置く
+**Key point:** I planned an extra step during printing to combine different materials.
 
-**本文に使える説明：** プリントを止めたあと、あらかじめ接着剤を塗ったポリカーボネートのプレートをソールの中に置いた。
+### `pc-plate-placement2.png` — Placing the Plate
 
-**伝えたいこと：** プレートがずれないように、位置と接着を工夫した。
+**Suggested caption:** After pausing the print, I placed the polycarbonate plate, already coated with adhesive, inside the sole.
 
-### `pc-plate-placement3.png` — プリントを再開してプレートを内蔵
+**Key point:** I considered placement and bonding to keep the plate from shifting.
 
-**本文に使える説明：** プレートを置いたあとにプリントを再開すると、TPUのソールの中にポリカーボネートのプレートを組み込むことができた。プリントの「一時停止 → プレート配置 → 再開」で、異なる材料を一つのソールにできた。
+### `pc-plate-placement3.png` — Resuming the Print to Embed the Plate
 
-**伝えたいこと：** 家の3Dプリンタでも、異なる材料を組み合わせたソールを作ることができた。
+**Suggested caption:** Resuming the print after placing the plate embedded it inside the TPU sole. The sequence “pause → place the plate → resume” combined different materials into one sole.
 
-## 6. 完成したK-Dashを組み立て、重さと走りを確かめる
+**Key point:** A home 3D printer could produce a sole combining different materials.
 
-### `glue-shoes.png` — アッパーとソールを接着する
+## 6. Assembling K-Dash and Testing Weight and Running
 
-**本文に使える説明：** プリントしたアッパーとソールを接着して、K-Dashを一足のシューズに組み立てた。別々に作った部品を正しい位置で合わせることも、シューズ作りの大切な工程だった。
+### `glue-shoes.png` — Bonding the Uppers and Soles
 
-**伝えたいこと：** 設計・プリントした部品を組み合わせて、実際に履けるシューズにした。
+**Suggested caption:** I glued the printed uppers and soles together to assemble a pair of K-Dash shoes. Aligning the separately made parts was another important step in making the shoes.
 
-### `k-dash-wearing.jpg` — 完成したK-Dashを両足に履く
+**Key point:** I combined the designed and printed parts into wearable shoes.
 
-**本文に使える説明：** 完成したK-Dashを両足に履いてみた。自分の足を3Dスキャンして作った黒いアッパーと、3Dプリントした白いソールを組み合わせた、自分だけのランニングシューズである。
+### `k-dash-wearing.jpg` — Wearing the Finished K-Dash on Both Feet
 
-**伝えたいこと：** 設計、プリント、組み立てをした部品が、実際に両足で履けるシューズになった。
+**Suggested caption:** I tried the finished K-Dash on both feet. These custom running shoes combine black uppers made from scans of my feet with white 3D-printed soles.
 
-### `weight-normal.jpg` — 普通の靴の重さ：204 g
+**Key point:** The parts I designed, printed, and assembled became shoes I could wear on both feet.
 
-**本文に使える説明：** 比べるために、普通のランニングシューズの重さを測ると204 gだった。K-Dashがどれくらい重いか、または軽いかを考えるための基準にした。
+### `weight-normal.jpg` — Regular Shoe Weight: 204 g
 
-**伝えたいこと：** 作ったシューズは、同じように重さを測ることで市販の靴と比べられる。
+**Suggested caption:** For comparison, I weighed the regular running shoes and recorded 204 g. I used this as a baseline for considering how heavy or light K-Dash was.
 
-### `weight-v1.jpg` — K-Dash v1の重さ：411 g
+**Key point:** Measuring weight in the same way lets me compare my shoes with commercial shoes.
 
-**本文に使える説明：** PEBAとTPUを使ったK-Dash v1の重さは411 gだった。作ったシューズは普通の靴より重かったため、次のバージョンでは軽くすることを目標にした。
+### `weight-v1.jpg` — K-Dash v1 Weight: 411 g
 
-**伝えたいこと：** 実際に重さを測ると、改良すべきところが数字で分かる。
+**Suggested caption:** K-Dash v1, made with PEBA and TPU, weighed 411 g. Since it was heavier than the regular shoes, I aimed to make the next version lighter.
 
-### `weight-v2.jpg` — K-Dash v2の重さ：268 g
+**Key point:** Measuring the weight showed in numbers what needed improvement.
 
-**本文に使える説明：** TPU Airを使ったK-Dash v2の重さは268 gだった。v1の411 gと比べて143 g、約35%軽くできた。普通の靴の204 gにはまだ届かないが、材料を変えることで大きく軽くできた。
+### `weight-v2.jpg` — K-Dash v2 Weight: 268 g
 
-**伝えたいこと：** 材料と設計を変えると、シューズの重さを大きく改善できることが分かった。
+**Suggested caption:** K-Dash v2, made with TPU Air, weighed 268 g. That was 143 g, or about 35%, lighter than v1 at 411 g. It was still heavier than the regular shoes at 204 g, but changing materials greatly reduced the weight.
 
-### `running-test-normal.png` — 普通の靴で400 mの時間を測る
+**Key point:** I learned that changes to materials and design can substantially improve shoe weight.
 
-**本文に使える説明：** K-Dashと比べるため、普通の靴を履いて400 mを走り、時間を測った。同じ距離を走る基準の記録にした。
+### `running-test-normal.png` — Timing a 400 m Run in Regular Shoes
 
-**伝えたいこと：** 比べる実験では、先に基準となる結果を記録することが大切である。
+**Suggested caption:** I ran 400 m in regular shoes and timed the run to compare it with K-Dash. This became the baseline for running the same distance.
 
-### `running-test0.png` — K-Dashを履いて走行前に確認する
+**Key point:** A comparison experiment needs a recorded baseline.
 
-**本文に使える説明：** 実際にK-Dashを履いて、走る前にフィット感やソールの状態を確認した。自分の足に合わせて作ったアッパーと、軽くしたソールを組み合わせた完成版である。
+### `running-test0.png` — Checking K-Dash Before Running
 
-**伝えたいこと：** 走る前にも、靴が足に合っているか、安全に使えそうかを確かめた。
+**Suggested caption:** I put on K-Dash and checked the fit and sole condition before running. This finished version combined uppers fitted to my feet with lighter soles.
 
-### `running-test2.png` — K-Dashを履いて走る
+**Key point:** Before running, I checked whether the shoes fitted and appeared safe to use.
 
-**本文に使える説明：** 完成したK-Dashを履いて実際に走った。プリントしたアッパーとハニカム構造のソールが、走っているときにも使えることを確かめた。
+### `running-test2.png` — Running in K-Dash
 
-**伝えたいこと：** 作っただけで終わりにせず、実際に履いて走るテストまで行った。
+**Suggested caption:** I ran in the finished K-Dash shoes. I checked that the printed uppers and honeycomb soles could function while running.
 
-### `running-side-view1.png` — スロー撮影：ソールの動き 1
+**Key point:** I went beyond making the shoes and tested them by wearing them and running.
 
-**本文に使える説明：** 実際に走っている足元を横からスローモーションで撮影した。走っているときに、ハニカム構造のソールがどのような形になっているかを観察した。
+### `running-side-view1.png` — Slow Motion: Sole Movement 1
 
-**伝えたいこと：** 動画をゆっくり見ると、走っている間のソールの動きを細かく確かめられる。
+**Suggested caption:** I filmed my feet from the side in slow motion while running. I observed the shape of the honeycomb soles during the run.
 
-### `running-side-view2.png` — スロー撮影：ソールの動き 2
+**Key point:** Slow-motion video lets me examine sole movement in detail.
 
-**本文に使える説明：** スローモーション動画の別の場面で、足に体重がかかっているときのK-Dashを横から観察した。ソールの高さや形の変化を確認するために使った。
+### `running-side-view2.png` — Slow Motion: Sole Movement 2
 
-**伝えたいこと：** 同じ走る動きでも、場面ごとにソールの様子が変わることを観察した。
+**Suggested caption:** In another frame of the slow-motion video, I observed K-Dash from the side as my weight pressed on my foot. I used it to check changes in sole height and shape.
 
-### `running-side-view3.png` — スロー撮影：ソールの動き 3
+**Key point:** I observed how the soles changed at different stages of the running movement.
 
-**本文に使える説明：** スローモーション動画の別の場面で、地面をけるときの足元を観察した。走る動きの中で、ハニカム構造のソールが壊れずに形を保っているかを確かめた。
+### `running-side-view3.png` — Slow Motion: Sole Movement 3
 
-**伝えたいこと：** 動画を使うと、走行中の部品の安全性や動きを確認できる。
+**Suggested caption:** In another frame, I observed my foot pushing off the ground. I checked whether the honeycomb sole kept its shape without breaking during the running movement.
 
-## 使うときのメモ
+**Key point:** Video helps inspect how parts move and whether they remain intact during running.
 
-- 画像の下には、まず「本文に使える説明」を載せると読みやすくなります。
-- スキャン、試作、プレートのテストなどは、**作る前の課題 → 工夫したこと → 分かったこと**の順に並べると、自由研究らしく伝わります。
-- 最後に、普通の靴とK-Dashの400 mの時間、履き心地、走ったあとのソールの状態を同じ条件で比べて書くと、結果が伝わりやすくなります。
+## Usage Notes
+
+- Start with the “Suggested caption” below each image for readability.
+- For scanning, prototyping, and plate tests, use the sequence **initial challenge → design choice or adjustment → finding** to explain the research process.
+- Finish by comparing the regular shoes and K-Dash under the same conditions: 400 m times, comfort, and sole condition after running. This makes the results easier to understand.
