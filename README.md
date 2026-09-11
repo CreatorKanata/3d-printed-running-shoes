@@ -6,6 +6,12 @@
   <img src="images/3d-cad/asm-honeycomb-isometric.png" alt="Isometric view of the fully DIY K-Dash 3D-printed running shoes" width="760">
 </p>
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=hppxPRyWNDw">
+    <img src="images/youtube/youtube-thumbnail.jpg" alt="Watch the K-Dash project video on YouTube" width="760">
+  </a>
+</p>
+
 This summer research project was conceived by Kanata, a third-grade elementary school student. By scanning his own feet and learning about shoe design from his running club coach, he is taking on the challenge of making K-Dash: fully DIY running shoes designed for speed, using AI, 3D CAD, and a 3D printer. His father offers technical suggestions and support with scanning, CAD, material selection, and printing.
 
 ## Research Goals
