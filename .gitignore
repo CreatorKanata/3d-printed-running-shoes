@@ -35,3 +35,6 @@
 
 # Finder metadata is not project content.
 .DS_Store
+
+# Keep local comment examples out of the published repository.
+COMMENT_EXAMPLES.md
