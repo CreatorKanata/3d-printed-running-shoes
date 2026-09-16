@@ -36,5 +36,10 @@
 # Finder metadata is not project content.
 .DS_Store
 
+# The science-contest submission contains personal information and stays local only.
+/docs/report/3d-printed-running-shoes-science-contest.pptx
+/docs/report/3d-printed-running-shoes-science-contest.pdf
+/docs/report/~$*.pptx
+
 # Keep local comment examples out of the published repository.
 COMMENT_EXAMPLES.md
